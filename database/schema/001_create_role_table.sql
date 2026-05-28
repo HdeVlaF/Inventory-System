@@ -1,0 +1,9 @@
+CREATE TABLE role (
+    role_id INTEGER GENERATED ALWAYS AS IDENTITY,
+    name VARCHAR(50) NOT NULL,
+    description VARCHAR(255) NOT NULL,
+    created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    
+    CONSTRAINT role_pk PRIMARY KEY (role_id),
+    CONSTRAINT role_name_unique UNIQUE (name)
+);

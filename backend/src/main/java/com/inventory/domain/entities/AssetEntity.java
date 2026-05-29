@@ -6,10 +6,9 @@ import java.time.LocalDate;
 import java.time.OffsetDateTime;
 
 @Entity(name = "asset")
-@Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Data
 @Builder
 public class AssetEntity {
 

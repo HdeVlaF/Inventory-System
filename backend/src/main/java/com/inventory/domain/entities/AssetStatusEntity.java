@@ -4,10 +4,9 @@ import jakarta.persistence.*;
 import lombok.*;
 
 @Entity(name = "asset_status")
-@Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Data
 @Builder
 public class AssetStatusEntity {
 

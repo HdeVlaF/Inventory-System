@@ -5,10 +5,9 @@ import lombok.*;
 import java.time.OffsetDateTime;
 
 @Entity(name = "\"user\"")
-@Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Data
 @Builder
 public class UserEntity {
 

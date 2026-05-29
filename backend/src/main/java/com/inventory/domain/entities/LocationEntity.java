@@ -5,10 +5,9 @@ import lombok.*;
 import java.time.OffsetDateTime;
 
 @Entity(name = "location")
-@Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Data
 @Builder
 public class LocationEntity {
 

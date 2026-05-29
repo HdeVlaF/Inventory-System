@@ -6,10 +6,9 @@ import lombok.*;
 import java.time.OffsetDateTime;
 
 @Entity(name = "asset_type")
-@Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Data
 @Builder
 public class AssetTypeEntity {
 

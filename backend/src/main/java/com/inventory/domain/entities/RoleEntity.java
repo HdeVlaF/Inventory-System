@@ -6,10 +6,9 @@ import lombok.*;
 import java.time.OffsetDateTime;
 
 @Entity(name = "role")
-@Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Data
 @Builder
 public class RoleEntity {
 

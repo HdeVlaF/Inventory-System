@@ -6,10 +6,9 @@ import lombok.*;
 import java.time.OffsetDateTime;
 
 @Entity(name = "movement_type")
-@Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Data
 @Builder
 public class MovementTypeEntity {
 
